@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background: url(img/keyboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     color: #fff;
 }
 
@@ -73,7 +76,7 @@ a:hover{
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .name {
@@ -90,8 +93,9 @@ a:hover{
 .block-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 800px;
+    border: 1px solid green;
 }
 
 
